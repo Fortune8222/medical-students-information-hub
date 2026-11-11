@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Images of E. coli under the microscope, on culture plates, and prevention by handwashing.">
+    <title>Gallery | SafeGuard Health</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">SafeGuard<span>Health</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button"
+                    aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="nav-links">&#9776;</button>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active" aria-current="page">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="page-banner">
+            <div class="container">
+                <h1>Gallery</h1>
+                <p>From the microscope to the sink: pictures that show what E. coli is and how to stop it.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <figure class="gallery-item">
+                        <img src="images/ecoli-abdominal-pain.jpg" alt="Illustration showing an E. coli bacterium and a person holding their painful abdomen" loading="lazy">
+                        <figcaption><strong>E. coli and the gut</strong>Illustration of E. coli bacteria alongside the abdominal pain of an intestinal infection.</figcaption>
+                    </figure>
+                    <figure class="gallery-item infographic">
+                        <img src="images/ecoli-symptoms-infographic.jpg" alt="Infographic listing the symptoms of intestinal E. coli infection" loading="lazy">
+                        <figcaption><strong>How E. coli affects the body</strong>Common symptoms: diarrhoea, abdominal pain, nausea and fatigue. Fever and vomiting are less common. Infographic: Everyday Health.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/handwashing.jpg" alt="Soapy hands being washed under a running tap" loading="lazy">
+                        <figcaption><strong>Handwashing with soap</strong>Soap and running water for at least 20 seconds is one of the best defences against E. coli.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/culture-plate-pink.jpg" alt="Culture plate with streaked pink bacterial colonies" loading="lazy">
+                        <figcaption><strong>E. coli colonies on agar</strong>Streaked pink colonies on a culture plate. On MacConkey agar, pink colonies show lactose fermentation, typical of E. coli.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/culture-plate-gloved-hand.jpg" alt="Gloved hand holding a petri dish with red bacterial colonies" loading="lazy">
+                        <figcaption><strong>Culture plate in the lab</strong>A gloved hand holds a culture plate with red colonies. Culturing helps laboratories identify the organism.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/gram-stain-rods.jpg" alt="Microscope view of pink rod-shaped bacteria after Gram staining" loading="lazy">
+                        <figcaption><strong>Gram stain under the microscope</strong>E. coli appear as pink (Gram-negative), rod-shaped bacteria after Gram staining.</figcaption>
+                    </figure>
+                    <figure class="gallery-item infographic">
+                        <img src="images/colony-morphology.jpg" alt="Chart comparing E. coli colonies on nutrient, MacConkey, EMB and blood agar" loading="lazy">
+                        <figcaption><strong>Colony morphology on different media</strong>E. coli looks different on each medium: cream on nutrient agar, pink on MacConkey, metallic green sheen on EMB and grayish on blood agar. Tap to enlarge.</figcaption>
+                    </figure>
+                    <figure class="gallery-item infographic">
+                        <img src="images/hand-hygiene-7-steps.jpg" alt="Poster showing the seven steps of hand hygiene" loading="lazy">
+                        <figcaption><strong>7 steps to hand hygiene</strong>Follow all seven steps so no part of the hands is missed. Poster: Singapore National Eye Centre. Tap to enlarge.</figcaption>
+                    </figure>
+                </div>
+                <p class="credit-note">Images are used for educational purposes only. The symptoms infographic belongs to
+                   Everyday Health and the hand hygiene poster to the Singapore National Eye Centre; other images were
+                   collected from the web and remain the property of their owners.</p>
+            </div>
+        </section>
+
+        <dialog id="lightbox" class="lightbox" aria-label="Enlarged image">
+            <button type="button" id="lightbox-close" aria-label="Close image">&times;</button>
+            <img id="lightbox-img" src="" alt="">
+        </dialog>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+                <li><a href="https://x.com/" target="_blank" rel="noopener">X (Twitter)</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a></li>
+            </ul>
+            <p>&copy; 2026 SafeGuard Health. All rights reserved.</p>
+            <p>A student health-awareness project. This site does not replace advice from a health professional.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

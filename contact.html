@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the SafeGuard Health E. coli awareness campaign.">
+    <title>Contact | SafeGuard Health</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">SafeGuard<span>Health</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button"
+                    aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="nav-links">&#9776;</button>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="page-banner">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Questions, feedback, or want campaign material for your class or community? Write to us.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="form-wrap">
+                    <form id="contact-form" novalidate>
+
+                        <div class="form-group">
+                            <label for="name">Full name</label>
+                            <input type="text" id="name" name="name" placeholder="e.g. Amina Wanjiku" autocomplete="name">
+                            <div class="error-msg">Please enter your name (at least 2 characters).</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+                            <div class="error-msg">Please enter a valid email address.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="topic">What is this about?</label>
+                            <select id="topic" name="topic">
+                                <option value="">-- Choose a topic --</option>
+                                <option>A question about E. coli</option>
+                                <option>Campaign material request</option>
+                                <option>Feedback on the website</option>
+                                <option>Other</option>
+                            </select>
+                            <div class="error-msg">Please choose a topic.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea id="message" name="message" maxlength="500" placeholder="Type your message here..."></textarea>
+                            <div class="char-count" id="char-count">0 / 500 characters</div>
+                            <div class="error-msg">Please write a message (at least 10 characters).</div>
+                        </div>
+
+                        <button type="submit" class="btn">Send message</button>
+                        <div class="form-success" id="form-success" role="status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+                <li><a href="https://x.com/" target="_blank" rel="noopener">X (Twitter)</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a></li>
+            </ul>
+            <p>&copy; 2026 SafeGuard Health. All rights reserved.</p>
+            <p>A student health-awareness project. This site does not replace advice from a health professional.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
