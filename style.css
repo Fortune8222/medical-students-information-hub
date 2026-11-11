@@ -293,7 +293,9 @@ h1, h2, h3 { color: var(--navy); line-height: 1.25; }
 
 /* Small screens: hamburger menu */
 @media (max-width: 799px) {
-    .menu-toggle { display: inline-block; }
+    .menu-toggle { display: inline-block;
+                 margin-left: auto;
+                 }
 
     .nav-links {
         position: absolute;
